@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: darkviolet;
+}
+
+#span1 {
+    color: crimson;
+    margin: 100px;
+    padding: 100px;
+
+}
+
+#span2 {
+    color: cornflowerblue;
+
+}
+
+#span3,
+#span4 {
+    color: green;
+}
+
+p #span5 {
+    color: yellow;
+}
+
+.span6 {
+    color: black;
+}
+
+span::after {
+    content: '\A\A';
+    white-space: pre;
+}
+
+/* pseudoclase e una etiqueda a */
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: forestgreen;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0000FF;
+}
+
+/* selected link */
+a:active {
+    color: maroon;
+}
+
+button {
+    margin-top: 2rem;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+button:hover{
+    color: white;
+    background-color: indigo;
+}
