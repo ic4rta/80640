@@ -1,0 +1,28 @@
+/*
+.padre{
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hijo{
+    background-color: aqua;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}*/
+
+/* Estilos de la practica 3 */
+.padre{
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hijo{
+    background-color: aqua;
+    width: 100px;
+    margin: 10px;
+}
